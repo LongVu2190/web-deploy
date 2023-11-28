@@ -1,4 +1,4 @@
-FROM tomcat:9.0.58-jdk17-openjdk-slim
+FROM tomcat:9.0.83-jdk21-corretto
 
 RUN rm -rf /usr/local/tomcat/webapps/ROOT
 RUN rm -rf /usr/local/tomcat/webapps/examples
